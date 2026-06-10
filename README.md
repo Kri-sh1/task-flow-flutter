@@ -57,7 +57,7 @@ Currently under active development.
 ## 👥 Contributors
 
 - Krish Jandial
-- Your Teammate Name
+- Ishika Jain
 
 ## 🤝 Contributing
 
