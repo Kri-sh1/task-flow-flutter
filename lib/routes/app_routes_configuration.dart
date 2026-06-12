@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import '../core/theme/app_colors.dart';
 import '../pages/ai_page.dart';
 import '../pages/create_page.dart';
 
@@ -13,7 +12,7 @@ import '../pages/registeration_page.dart';
 import 'app_routes_constants.dart';
 
 final GoRouter router = GoRouter(
-  initialLocation: '/dashboard',
+  initialLocation: '/',
   routes: [
     StatefulShellRoute.indexedStack(
       builder: (context, state, navigationShell) {

@@ -8,6 +8,7 @@ class CustomButton extends StatelessWidget {
   final VoidCallback? onPressed;
   final bool isLoading;
   final IconData? icon;
+  final double? width;
 
   const CustomButton({
     super.key,
@@ -15,6 +16,7 @@ class CustomButton extends StatelessWidget {
     required this.onPressed,
     this.isLoading = false,
     this.icon,
+    this.width = double.infinity
   });
 
   @override
@@ -22,7 +24,7 @@ class CustomButton extends StatelessWidget {
     final bool isDisabled = onPressed == null || isLoading;
 
     return SizedBox(
-      width: double.infinity,
+      width: width,
       height: 52,
       child: ElevatedButton(
         onPressed: isDisabled ? null : onPressed,

@@ -18,6 +18,8 @@ class LandingPage extends StatelessWidget {
           padding: EdgeInsets.all(AppSpacing.xs),
           child: Column(
             children: [
+              SizedBox(height: 20),
+
               AppName(),
 
               Expanded(
