@@ -41,8 +41,10 @@ The project aims to transform traditional task management into an engaging and r
 
 lib/
 ├── core/
-├── routes/
+├── features/
 ├── pages/
+├── routes/
+├── services/
 ├── widgets/
 └── main.dart
 

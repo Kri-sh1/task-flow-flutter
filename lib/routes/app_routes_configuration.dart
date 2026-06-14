@@ -8,7 +8,7 @@ import '../pages/landing_page.dart';
 import '../pages/login_page.dart';
 import '../pages/profile_page.dart';
 import '../pages/progress_page.dart';
-import '../pages/registeration_page.dart';
+import '../pages/registration_page.dart';
 import 'app_routes_constants.dart';
 
 final GoRouter router = GoRouter(
@@ -81,7 +81,7 @@ final GoRouter router = GoRouter(
     GoRoute(
       name: AppRoutesConstants.registerationPage,
       path: '/register',
-      builder: (context, state) => const RegisterationPage(),
+      builder: (context, state) => RegistrationPage(),
     ),
 
     // GoRoute(

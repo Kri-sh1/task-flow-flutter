@@ -14,6 +14,7 @@ class CustomTextField extends StatelessWidget {
   final String? Function(String?)? validator;
   final VoidCallback? onTap;
   final bool readOnly;
+  final ValueChanged<String>? onChanged;
 
   const CustomTextField({
     super.key,
@@ -27,6 +28,7 @@ class CustomTextField extends StatelessWidget {
     this.validator,
     this.onTap,
     this.readOnly = false,
+    this.onChanged,
   });
 
   @override
